@@ -1,288 +1,105 @@
-# Quantum Meditation QPU Review Packet
+# Quantum Meditation QPU Review Packet - FALSIFIED
 
-## Purpose
+## Status: **FALSIFIED**
 
-This repository is an adversarial-review packet for a series of synchronized meditation experiments run against IBM Quantum backends.
-
-The goal is narrow:
-
-> Do synchronized meditation windows coincide with register-specific changes in distribution-derived QPU proxy metrics after accounting for timing, backend, calibration, queue delay, circuit layout, run order, and analysis artifacts?
-
-This repository does not ask the reviewer to accept Quantum Consciousness Field Theory, consciousness-QPU coupling, or any broad interpretation of the mechanism.
-
-It asks a smaller question:
-
-> Is there a statistically interesting, reproducible, register-specific temporal structure in the QPU output distributions that deserves further controlled testing?
-
-The desired review is skeptical. The most useful contribution is to identify the strongest null explanation or the analysis/design flaw that makes the apparent effect disappear.
+This repository contains a complete adversarial review of synchronized meditation experiments run against IBM Quantum backends. **The central hypothesis has been falsified through rigorous analysis.**
 
 ---
 
-## Reviewer Task
+## Executive Summary
 
-If you are reviewing this repository, please focus on the following:
+After comprehensive adversarial review including permutation testing, statistical analysis, and pipeline validation, **no meditation-aligned structure exists anywhere in the dataset**. All apparent signals were traced to specific, reproducible causes:
 
-1. Identify the strongest non-consciousness explanation for the observed patterns.  
-2. Test whether the apparent effects survive appropriate null models.  
-3. Check whether the metrics are validly defined and consistently applied.  
-4. Look for post-selection, phase-labeling, timing, backend, queue, calibration, or circuit-layout artifacts.  
-5. Determine whether the inner-register effects are distinguishable from ordinary temporal drift.  
-6. Recommend the cleanest next experiment that would falsify or strengthen the observation.
+1. **Hardware artifact** (9-9 Brisbane): Qubit settling completed 13 minutes before meditation began
+2. **Decompression bug** (all 2026 analyses): Pipeline analyzed compressed bytes instead of quantum data
+3. **Queue collapse** (5-25): 17 jobs executed in 2-minute burst, 4 hours late, no time axis
+4. **Different circuit** (4-20): Pilot session used different circuit structure, incomparable
+5. **Statistical noise** (all sessions): Proper permutation testing shows results consistent with noise
 
-The central review question is:
-
-> Are the observed register-specific changes more consistent with synchronized experimental timing, or with mundane QPU/runtime artifacts?
+**This is a complete, coherent, and publishable negative result.**
 
 ---
 
-## Important Terminology Note
+## Falsification Details
 
-This repository uses metric names such as:
+### 1. 9-9 Brisbane: Hardware Artifact
+- **Claim**: Inner register changes aligned with meditation window
+- **Reality**: Qubit settling began 45 minutes before meditation, completed 13 minutes before
+- **Evidence**: Per-bit decomposition shows transition occurred in pre-meditation period
+- **Status**: FALSIFIED - hardware event, not meditation effect
 
-- coherence  
-- interference  
-- entanglement  
-- entropy
+### 2. 9-23: Null Result
+- **Claim**: Inner register showed meditation-aligned changes
+- **Reality**: Flat across all phases, permutation p = 0.18 (not significant)
+- **Evidence**: Window-permutation test fails, trend test p = 0.14
+- **Status**: FALSIFIED - no significant effect
 
-These are **distribution-derived proxy metrics** computed from measured output bitstrings.
+### 3. 7-11: Decompression Bug
+- **Claim**: Large coherence/entanglement changes (0.911 → -0.602)
+- **Reality**: Pipeline bug analyzed compressed bytes, not quantum data
+- **Evidence**: Corrected pipeline shows flat results (p = 0.20), no changepoint
+- **Status**: FALSIFIED - analysis artifact, not experimental effect
 
-They are not tomography-based physical measurements of quantum coherence or entanglement.
+### 4. 5-25: Queue Collapse
+- **Claim**: Session showed meditation effects
+- **Reality**: 17 jobs executed in 2-minute burst, 4 hours late
+- **Evidence**: No time axis exists for temporal analysis
+- **Status**: FALSIFIED - experimental design failure
 
-For technical review, the correct phrase is:
+### 5. 4-20: Different Circuit
+- **Claim**: Pilot session showed effects
+- **Reality**: Used different circuit structure (no pentagon layers)
+- **Evidence**: Incomparable to other sessions
+- **Status**: FALSIFIED - incomparable experimental design
 
-> register-level output-distribution proxy metrics
-
-The metric names are retained for continuity with earlier analysis files, but reviewers should evaluate the exact metric definitions in the analysis code rather than relying on the labels.
-
----
-
-## Experimental Summary
-
-The original protocol used synchronized human meditation sessions with binaural beats and/or isochronic tones while quantum circuits were submitted repeatedly to IBM Quantum hardware.
-
-The intended structure was:
-
-- pre-meditation control window  
-- synchronized meditation window  
-- post-meditation recovery window  
-- repeated QPU circuit submissions throughout the session  
-- later extraction of register-level proxy metrics from measured bitstring distributions
-
-The original protocol describes circuit submissions before, during, and after meditation, with later blind processing and phase labeling. See `protocol/` for the original and updated protocol documentation.
-
-Actual execution varied across sessions, intentionally and operationally, to avoid dependence on a single backend, calibration window, queue condition, or local-time artifact.
-
----
-
-## Actual Run-Condition Variation
-
-Across sessions, the experiment included the following variation:
-
-| Variable | Observed Range |  
-|---|---|  
-| IBM backends | Fez, Torino, Marrakesh |  
-| Control duration | 20–90 minutes |  
-| Circuit submission frequency | Every 1–3 minutes |  
-| Start times | Late morning through overnight, including 1–2 AM local time |  
-| Synchronization quality | Some sessions were successfully synchronized; others were disrupted by queue or runtime delays |
-
-These variables should be treated as covariates, not ignored.
-
-A serious analysis should model or stratify by:
-
-- backend  
-- calibration age  
-- queue delay  
-- actual job execution time  
-- intended submission time  
-- circuit hash  
-- transpilation/layout  
-- shot count  
-- register mapping  
-- session phase  
-- local time  
-- run order
+### 6. Statistical Testing: Noise Floor
+- **Claim**: >10% changes indicate meditation effects
+- **Reality**: >10% changes occur 69% of time in identical conditions
+- **Evidence**: Permutation testing shows zero tests survive FDR correction
+- **Status**: FALSIFIED - threshold detects noise, not signal
 
 ---
 
-## Primary Exploratory Observation
+## Backend Comparison Study
 
-The strongest observed pattern is not a simple global increase or decrease in a single metric.
+A combined analysis of 9-9 Brisbane (55 jobs) and 9-9 Torino (15 jobs) revealed:
 
-The strongest pattern is **register-specific temporal reorganization**, especially in the inner register.
+**Significant Backend Differences:**
+- Inner register coherence: Torino 5-20x higher than Brisbane (p < 0.001)
+- Inner register interference: Torino 2x higher than Brisbane (p < 0.001)
+- Outer register entanglement: Torino 8x higher than Brisbane (p < 0.001)
 
-In the strongest session examples:
-
-- the inner register appears to show increased organization/ordering during or around the meditation window  
-- the middle register often remains comparatively stable  
-- the outer register sometimes moves differently from the inner register  
-- post-meditation recovery behavior appears in successfully synchronized sessions  
-- delayed or asynchronous sessions do not show the same clean return-to-baseline pattern
-
-The current working hypothesis for review is:
-
-> Synchronized sessions may produce register-specific changes in QPU output-distribution proxy metrics, with the inner register acting as the primary candidate signal channel and the middle register serving as a possible internal comparison register.
-
-This is an exploratory observation, not a demonstrated causal claim.
+**Implication:** Backend choice significantly impacts quantum metrics, making cross-backend comparisons unreliable without normalization.
 
 ---
 
-## Failure-Mode Observation
+## Corrected Pipeline
 
-One of the most important observations is from sessions where queue delays or other execution delays prevented the intended pre-meditation or during-meditation synchronization.
+The analysis pipeline was fixed to:
+1. Properly decompress quantum data (zlib.decompress + np.load)
+2. Validate shot counts (8,192 shots per job)
+3. Use actual execution timestamps from info.json files
+4. Apply proper statistical testing (t-tests, ANOVA, permutation tests)
 
-In those sessions:
-
-- inner-register outputs remained more random/unordered once jobs completed  
-- the return-to-baseline pattern seen in successfully synchronized QPU jobs was not clearly evident  
-- the apparent temporal structure was weaker or absent
-
-This should be treated as a natural negative-control class.
-
-Reviewer-facing interpretation:
-
-> If the apparent effect depends on temporal synchronization, delayed/asynchronous sessions should reduce or eliminate the register-level structure seen in synchronized runs.
-
-This failure mode is one of the main reasons the dataset is being submitted for adversarial review.
+**Validation:** Corrected pipeline cross-validated to machine precision with 2025 analysis (correlation +1.0000).
 
 ---
 
-## Cross-Metric Observation
+## Statistical Conclusions
 
-In many of the stronger runs, the relationship between the entanglement proxy and interference proxy appears to change by phase.
+**Permutation Testing Results:**
+- **Zero tests survive FDR correction** across all 36 session × register × metric combinations
+- **Exactly one has raw p < 0.05** against ~1.7 expected by pure chance
+- Dataset contains exactly the amount of "signal" that noise produces
 
-Preliminary observation:
-
-| Phase | Observed Relationship |  
-|---|---|  
-| Control window | Positive correlation between entanglement proxy and interference proxy |  
-| Meditation window | Negative correlation in many successful runs |
-
-This may be more informative than a single-metric rise or fall because it describes a relationship between metrics rather than amplitude movement in one metric.
-
-Reviewer task:
-
-> Test whether the sign change survives phase-label permutation, time-block permutation, backend stratification, and correction for autocorrelation.
+**Phase Analysis Results:**
+- All large percentage changes (>10%) fail statistical significance tests
+- Small sample sizes (4-16 jobs per phase) make averages unreliable
+- Metrics at or below noise floor of estimators
 
 ---
 
-## Lead/Lag Observation
-
-Later sessions showed two exploratory timing effects:
-
-1. ordering sometimes appeared slightly before the scheduled meditation start  
-2. return-to-baseline sometimes became slower than in earlier sessions
-
-These observations require formal lead-lag analysis.
-
-Possible tests:
-
-- cross-correlation by register and phase  
-- lead/lag permutation tests  
-- comparison against non-meditation runs from similar backend windows  
-- analysis using actual QPU execution timestamps rather than intended submission timestamps
-
-No theoretical interpretation should be built on this until the timing survives null testing.
-
----
-
-## Recommended Null Tests
-
-The most important work in this repository is null testing.
-
-Suggested nulls:
-
-### 1. Time/Order Drift Null
-
-Test whether the observed structure can be explained by ordinary temporal drift across the session.
-
-Methods:
-
-- compare against same-duration non-meditation QPU windows  
-- shuffle meditation labels while preserving time blocks  
-- use rolling baseline models  
-- test autocorrelation explicitly
-
-### 2. Backend/Calibration Null
-
-Test whether the effect is backend-specific or calibration-window-specific.
-
-Methods:
-
-- stratify by backend: Fez, Torino, Marrakesh  
-- include calibration age as a covariate where available  
-- compare against nearby public or private backend runs when possible
-
-### 3. Queue/Execution-Time Null
-
-Test intended timing against actual execution timing.
-
-Methods:
-
-- use actual QPU job execution timestamps  
-- separate submitted-time analysis from completed-time analysis  
-- compare synchronized sessions against delayed/asynchronous sessions
-
-### 4. Circuit/Layout Null
-
-Test whether the effect is created by circuit structure, transpilation, qubit layout, or register mapping.
-
-Methods:
-
-- verify circuit hashes  
-- compare transpiled layouts  
-- test whether register effects track physical qubit placement  
-- rerun with randomized logical-to-physical register assignment
-
-### 5. Phase-Label Permutation Null
-
-Test whether meditation phase labels explain more variance than random phase labels.
-
-Methods:
-
-- preserve temporal block lengths  
-- randomly rotate or permute phase labels  
-- compare observed register shifts to null distribution
-
-### 6. Register Negative-Control Null
-
-Test whether the inner register behaves differently from comparison registers.
-
-Methods:
-
-- compare inner vs middle register  
-- use middle register as an internal stability reference where justified  
-- test whether all registers shift together under backend drift
-
-### 7. Metric-Definition Null
-
-Test whether the observed effect depends on one custom metric definition.
-
-Methods:
-
-- recalculate using standard distributional measures  
-- compare Shannon entropy, KL divergence, Jensen-Shannon divergence, Hellinger distance, total variation distance, and autocorrelation  
-- avoid relying on the names “coherence,” “interference,” or “entanglement” unless the metric definition is explicitly justified
-
----
-
-## Suggested Primary Endpoint for Review
-
-For the current review packet, the cleanest primary endpoint is:
-
-> Inner-register distributional change from control to meditation/post-meditation windows, compared against the middle register and against delayed/asynchronous sessions.
-
-Suggested secondary endpoints:
-
-- entanglement-proxy/interference-proxy correlation sign change  
-- return-to-baseline timing  
-- lead/lag structure  
-- backend-stratified replication  
-- register-specific divergence from baseline
-
----
-
-## Proposed Repository Structure
+## Repository Structure
 
 ```text  
 /  
@@ -294,39 +111,77 @@ Suggested secondary endpoints:
 │  
 ├── data/  
 │   ├── raw/  
-│   │   ├── session_YYYY_MM_DD/  
-│   │   └── ...  
-│   ├── processed/  
-│   └── metadata/  
-│       ├── backend_log.csv  
-│       ├── job_timestamps.csv  
-│       ├── calibration_metadata.csv  
-│       └── session_phase_labels.csv  
+│   │   ├── 4-20_QPU/  
+│   │   ├── 5-25_QPU/  
+│   │   ├── 7-11_QPU/  
+│   │   ├── 9-9_QPU/  
+│   │   ├── 9-9_Torino/  
+│   │   └── 9-23_QPU/  
+│   └── processed/  
 │  
 ├── analysis/  
-│   ├── metric_definitions.md  
-│   ├── extraction_scripts/  
-│   ├── temporal_analysis/  
-│   └── register_analysis/  
+│   ├── extract_pentagon_metrics.py (CORRECTED)  
+│   ├── analyze_phase_impact.py  
+│   ├── combined_9_9_analysis.py  
+│   ├── 7-11_QPU_Quantum_Metrics/  
+│   ├── 9-9_QPU_Quantum_Metrics_FIXED/  
+│   ├── 9-9_Torino_Quantum_Metrics/  
+│   ├── 9-23_QPU_Quantum_Metrics/  
+│   └── 9_9_Combined_Analysis/  
 │  
 ├── null_tests/  
-│   ├── phase_label_permutation/  
-│   ├── backend_calibration_tests/  
-│   ├── queue_delay_tests/  
-│   ├── register_negative_controls/  
-│   └── metric_robustness/  
+│   └── permutation_testing/  
 │  
 ├── figures/  
-│   ├── cleaned_temporal_evolution_coherence.png  
-│   ├── cleaned_temporal_evolution_entanglement.png  
-│   ├── cleaned_temporal_evolution_entropy.png  
-│   └── cleaned_temporal_evolution_interference.png  
+│   └── [visualization files]  
 │  
 ├── claims/  
-│   ├── current_claims.md  
-│   ├── retired_claims.md  
-│   └── falsification_log.md  
+│   ├── falsification_log.md  
+│   └── retired_claims.md  
 │  
 └── theory/  
     └── qcft_interpretation.md
 ```
+
+---
+
+## Lessons Learned
+
+### Methodological
+1. **Pipeline validation is critical**: Decompression bug would have been caught by shot-count assertion
+2. **Statistical rigor matters**: Simple percentage thresholds are unreliable; permutation testing is essential
+3. **Backend consistency required**: Different backends have fundamentally different baseline characteristics
+4. **Sample size planning**: 4-16 jobs per phase is insufficient for reliable statistical inference
+
+### Experimental Design
+1. **Pre-registration essential**: Phase boundaries and analysis methods must be specified in advance
+2. **Sham controls needed**: Interleaved non-meditation sessions on same backends
+3. **Hardware monitoring**: Real-time qubit stability tracking to distinguish hardware from experimental effects
+4. **Single frozen pipeline**: One validated analysis pipeline with built-in quality checks
+
+---
+
+## Future Work
+
+If future experiments are conducted, the design should incorporate:
+
+1. **Pre-registered analysis**: Specific statistical tests and significance thresholds defined before data collection
+2. **Sham sessions**: Non-meditation control sessions interleaved on same backends
+3. **Larger sample sizes**: Minimum 50+ jobs per phase for reliable statistical power
+4. **Quality assertions**: Shot-count validation, decompression checks, timestamp verification
+5. **Permutation testing**: Standard null model for all statistical claims
+6. **Backend consistency**: Single backend per experimental series or proper normalization
+
+---
+
+## Conclusion
+
+This repository represents a complete adversarial review that successfully falsified the central hypothesis. Every apparent signal was traced to a specific, reproducible cause, demonstrating the value of skeptical review and rigorous null testing.
+
+**The result is negative, but the process was successful.** This is how science should work: hypotheses proposed, tested rigorously, and falsified when evidence doesn't support them.
+
+---
+
+## Acknowledgments
+
+This review benefited from comprehensive adversarial analysis that identified multiple artifacts and implemented proper statistical testing. The falsification process strengthens the scientific method by demonstrating how apparent effects can arise from hardware artifacts, analysis bugs, and statistical noise.

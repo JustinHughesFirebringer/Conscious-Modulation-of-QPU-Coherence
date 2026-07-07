@@ -1,0 +1,18 @@
+{
+  "layers": {
+    "central": {
+      "num_shots": 4096,
+      "coherence": 1.0,
+      "entanglement": 0.0,
+      "interference": 0.9921875
+    },
+    "measurement": {
+      "num_shots": 4096,
+      "coherence": 0.001618249075753253,
+      "entanglement": 0.005403979844791055,
+      "interference": 0.5247051562376939
+    }
+  },
+  "job_id": "d02obi8pmeos73fpkdpg",
+  "timestamp": "2025-04-20T23:39:53.928973"
+}

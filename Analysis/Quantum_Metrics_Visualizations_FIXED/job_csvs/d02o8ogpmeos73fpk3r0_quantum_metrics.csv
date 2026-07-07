@@ -1,0 +1,2 @@
+job_id,coherence_central,coherence_measurement,entanglement_central,entanglement_measurement,interference_central,interference_measurement,num_shots_central,num_shots_measurement,timestamp,phase,state
+d02o8ogpmeos73fpk3r0,1.0,0.0037482806614466124,0.0,0.004953230159754796,0.9921875,0.5568452893106277,4096.0,4096.0,2025-04-20 23:33:54.323731,Unknown,Unknown

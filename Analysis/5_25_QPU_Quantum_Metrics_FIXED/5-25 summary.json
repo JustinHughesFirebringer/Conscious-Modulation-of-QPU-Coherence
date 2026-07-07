@@ -1,0 +1,516 @@
+{
+  "timestamp": "2026-07-06T11:18:22.565456",
+  "num_jobs": 17,
+  "jobs": [
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.28534793853759766,
+          "entanglement": 0.0,
+          "interference": 0.22448763083423018
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.0030439257621766025,
+          "entanglement": 0.0008301416519775895,
+          "interference": 0.21307867626386867
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0001794576644897905,
+          "entanglement": 0.0011852765488995498,
+          "interference": 0.17754794231317184
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.0013901472091675249,
+          "entanglement": 0.09083870714638054,
+          "interference": 0.5889535270688625
+        }
+      },
+      "job_id": "d0ppvjv75hms73dusno0",
+      "timestamp": "2025-05-25T22:55:12.002993"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.06384998559951782,
+          "entanglement": 0.0,
+          "interference": 0.11381032204978425
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.09246701002120972,
+          "entanglement": 0.000648980277982103,
+          "interference": 0.5680724076126646
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0005292654037476474,
+          "entanglement": 0.00044159620600026095,
+          "interference": 0.14518730586127626
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.001110482215881392,
+          "entanglement": 0.07648552265893915,
+          "interference": 0.5755611290054863
+        }
+      },
+      "job_id": "d0pq0vg15afs73clkib0",
+      "timestamp": "2025-05-25T22:58:06.292410"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.07277876138687134,
+          "entanglement": 0.0,
+          "interference": 0.12082928809875193
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.009102463722229004,
+          "entanglement": 0.000509878496204319,
+          "interference": 0.3110665153848886
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.03460419178009033,
+          "entanglement": 0.00030728102960408954,
+          "interference": 0.3814836730512846
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.00954923629760751,
+          "entanglement": 0.004528542401097235,
+          "interference": 0.3629073290175835
+        }
+      },
+      "job_id": "d0pq2c775hms73dusq8g",
+      "timestamp": "2025-05-25T23:01:05.103437"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.35836124420166016,
+          "entanglement": 0.0,
+          "interference": 0.2494660558372095
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.018027222156524747,
+          "entanglement": 0.0016297178583370986,
+          "interference": 0.34136614968807544
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.00011972188949593843,
+          "entanglement": 0.000534783043024234,
+          "interference": 0.13168959215251375
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.002076411247253329,
+          "entanglement": 0.05866853806863048,
+          "interference": 0.485805410094616
+        }
+      },
+      "job_id": "d0pq3p815afs73clkks0",
+      "timestamp": "2025-05-25T23:04:05.820509"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.1835837960243225,
+          "entanglement": 0.0,
+          "interference": 0.18373170148857976
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.0031363248825073686,
+          "entanglement": 0.003438582010222291,
+          "interference": 0.32068073718013657
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.036478412151336626,
+          "entanglement": 0.0005084942692417105,
+          "interference": 0.42361297275188947
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.11425302028656015,
+          "entanglement": 0.008047841575274495,
+          "interference": 0.563362086850681
+        }
+      },
+      "job_id": "d0pq562q9bic73b9p3l0",
+      "timestamp": "2025-05-25T23:07:05.093238"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.3982916474342346,
+          "entanglement": 0.0,
+          "interference": 0.26221661751610725
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.006508100032806441,
+          "entanglement": 0.0011974485115600064,
+          "interference": 0.2796344950244424
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.037089526653289795,
+          "entanglement": 0.0011377211246963448,
+          "interference": 0.3506150317770965
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.045545983314514205,
+          "entanglement": 0.059341353611184866,
+          "interference": 0.6288171131931122
+        }
+      },
+      "job_id": "d0pq6j8hmjts73cqktcg",
+      "timestamp": "2025-05-25T23:10:05.137910"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.39675235748291016,
+          "entanglement": 0.0,
+          "interference": 0.26173434727132483
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.0025845766067504883,
+          "entanglement": 0.0026845032089923837,
+          "interference": 0.2943674158323556
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.00024921894073481887,
+          "entanglement": 0.001207196823396428,
+          "interference": 0.18733737679999374
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.06190249919891366,
+          "entanglement": 0.008219330595311103,
+          "interference": 0.5042546557345335
+        }
+      },
+      "job_id": "d0pq80g15afs73clkon0",
+      "timestamp": "2025-05-25T23:13:06.352724"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.41636520624160767,
+          "entanglement": 0.0,
+          "interference": 0.26783054425604946
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.002937018871307373,
+          "entanglement": 0.0012470823821075783,
+          "interference": 0.25570671739429573
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0004376053810120073,
+          "entanglement": 0.0009073960214938115,
+          "interference": 0.1690755878288599
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.010024499893188432,
+          "entanglement": 0.05734720536882176,
+          "interference": 0.5580793506489029
+        }
+      },
+      "job_id": "d0pq9dn75hms73dut0m0",
+      "timestamp": "2025-05-25T23:16:06.110449"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.36158376932144165,
+          "entanglement": 0.0,
+          "interference": 0.25051509078339407
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.004484736919402987,
+          "entanglement": 0.0008159723041454292,
+          "interference": 0.25060053067606747
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 4.00543212890625e-05,
+          "entanglement": 0.0004133959082823768,
+          "interference": 0.11013199054896883
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.004564273357391402,
+          "entanglement": 0.0860461320318302,
+          "interference": 0.5911060230756691
+        }
+      },
+      "job_id": "d0pqaqghmjts73cql1b0",
+      "timestamp": "2025-05-25T23:19:06.846864"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.2863922119140625,
+          "entanglement": 0.0,
+          "interference": 0.22486413256888194
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.005552577972412154,
+          "entanglement": 0.0030564494912324047,
+          "interference": 0.3114667859204626
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 1.5664100647017065e-05,
+          "entanglement": 0.0007353597231116726,
+          "interference": 0.14142262775922432
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.005237460136413574,
+          "entanglement": 0.11120347056601632,
+          "interference": 0.6341272919391385
+        }
+      },
+      "job_id": "d0pqc7n75hms73dut370",
+      "timestamp": "2025-05-25T23:22:06.374459"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.4038577675819397,
+          "entanglement": 0.0,
+          "interference": 0.26395493812724524
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.0027971506118773526,
+          "entanglement": 0.00747914035051811,
+          "interference": 0.3507870865772533
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0007609248161315474,
+          "entanglement": 0.0006124209692164317,
+          "interference": 0.17127345740071287
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.0029483675956725186,
+          "entanglement": 0.11012993791485925,
+          "interference": 0.6253538505300276
+        }
+      },
+      "job_id": "d0pqdk8hmjts73cql3v0",
+      "timestamp": "2025-05-25T23:25:05.260443"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.371337890625,
+          "entanglement": 0.0,
+          "interference": 0.25366768045892674
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.0035444974899292436,
+          "entanglement": 0.004131210074612701,
+          "interference": 0.3119788696628021
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0005067348480225498,
+          "entanglement": 0.0006897852526142056,
+          "interference": 0.15000524219993217
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.00349292755126962,
+          "entanglement": 0.10331927442199995,
+          "interference": 0.6030525476344635
+        }
+      },
+      "job_id": "d0pqf1f75hms73dut5o0",
+      "timestamp": "2025-05-25T23:28:05.654668"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.2811899185180664,
+          "entanglement": 0.0,
+          "interference": 0.22298196502051937
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.013605964183807329,
+          "entanglement": 0.001984108505470372,
+          "interference": 0.3165405685520164
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.002426779270172208,
+          "entanglement": 0.0011977411436348007,
+          "interference": 0.2380031889637645
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.007430064678192183,
+          "entanglement": 0.06750763092457701,
+          "interference": 0.5854138821077838
+        }
+      },
+      "job_id": "d0pqge8hmjts73cql6hg",
+      "timestamp": "2025-05-25T23:31:05.500947"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.23580318689346313,
+          "entanglement": 0.0,
+          "interference": 0.20578014246381793
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.06978427171707158,
+          "entanglement": 0.000886844157682809,
+          "interference": 0.557484351651266
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0001140117645264116,
+          "entanglement": 0.0007424476171919991,
+          "interference": 0.1448551314714407
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.014558672904968262,
+          "entanglement": 0.07484737954966225,
+          "interference": 0.5898124928456927
+        }
+      },
+      "job_id": "d0pqhr2q9bic73b9peog",
+      "timestamp": "2025-05-25T23:34:04.863571"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.060202181339263916,
+          "entanglement": 0.0,
+          "interference": 0.11078296036735003
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.019948387145996005,
+          "entanglement": 0.0015837403020129148,
+          "interference": 0.3890717426001231
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.039140379428863614,
+          "entanglement": 0.0006167894135027385,
+          "interference": 0.3204042300154615
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.010636794567108199,
+          "entanglement": 0.0176296559628788,
+          "interference": 0.4522867271834349
+        }
+      },
+      "job_id": "d0pqj8815afs73cll2n0",
+      "timestamp": "2025-05-25T23:37:05.357106"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.14710670709609985,
+          "entanglement": 0.0,
+          "interference": 0.1662478367998229
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.04847627878189087,
+          "entanglement": 0.00045862478666625073,
+          "interference": 0.36699131885771974
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.0014549016952514204,
+          "entanglement": 0.0005707734545248311,
+          "interference": 0.19765673505876924
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.04036314487457271,
+          "entanglement": 0.016848082944056264,
+          "interference": 0.46319871792773226
+        }
+      },
+      "job_id": "d0pqkln75hms73dutarg",
+      "timestamp": "2025-05-25T23:40:06.129652"
+    },
+    {
+      "layers": {
+        "central": {
+          "num_shots": 8192,
+          "coherence": 0.25663524866104126,
+          "entanglement": 0.0,
+          "interference": 0.2138620984213756
+        },
+        "inner": {
+          "num_shots": 8192,
+          "coherence": 0.005119502544403076,
+          "entanglement": 0.0010480639533976266,
+          "interference": 0.2488335839856023
+        },
+        "middle": {
+          "num_shots": 8192,
+          "coherence": 0.035137152671814054,
+          "entanglement": 0.0011204175647598902,
+          "interference": 0.3851273663000282
+        },
+        "outer": {
+          "num_shots": 8192,
+          "coherence": 0.0025329470634460893,
+          "entanglement": 0.052340405644309085,
+          "interference": 0.5259378990883634
+        }
+      },
+      "job_id": "d0pqm28hmjts73cqlbpg",
+      "timestamp": "2025-05-25T23:43:05.564747"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+================================================================================
+5-25 QPU QUEUE DELAY ANALYSIS REPORT
+================================================================================
+
+INTENDED SCHEDULE:
+  Job Submission Window: 5:55 PM - 6:45 PM Central Time
+  Meditation Window: 6:00 PM - 6:30 PM Central Time
+  Expected: Jobs to run during meditation period
+
+ACTUAL EXECUTION:
+  First Job: 05:55 PM Central
+  Last Job: 06:43 PM Central
+  Execution Window: 05:55 - 06:43 PM Central
+  Total Jobs: 17
+
+QUEUE DELAY ANALYSIS:
+  Delay from intended start: 0.0 hours
+  Jobs executed: 0 minutes after intended start
+
+MEDITATION SYNCHRONIZATION:
+  Some overlap detected between meditation and execution
+
+IMPACT ON ANALYSIS:
+  - Distribution-derived metrics can still be calculated
+  - Temporal correlation with meditation is NOT valid
+  - This dataset should be EXCLUDED from meditation-effect analysis
+  - Data may still be useful for baseline quantum behavior analysis
+
+================================================================================

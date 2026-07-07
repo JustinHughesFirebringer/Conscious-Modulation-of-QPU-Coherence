@@ -1,0 +1,34 @@
+{
+  "backend": "ibm_sherbrooke",
+  "created": "2025-04-20T23:30:54.062937Z",
+  "id": "d02o7b8pmeos73fpjv1g",
+  "cost": 18000,
+  "params": {
+    "support_qiskit": true,
+    "version": 2,
+    "options": {
+      "default_shots": 4096
+    },
+    "pubs": [
+      [
+        {
+          "__type__": "QuantumCircuit",
+          "__value__": "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"
+        },
+        {
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RoGOpo6CrUKFAAuAFOzG1s=",
+          "__type__": "ndarray"
+        },
+        null
+      ]
+    ]
+  },
+  "program": {
+    "id": "sampler"
+  },
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "user_id": "IBMid-698000S8GS"
+}

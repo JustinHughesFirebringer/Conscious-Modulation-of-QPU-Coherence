@@ -1,0 +1,30 @@
+{
+  "layers": {
+    "central": {
+      "num_shots": 8192,
+      "coherence": 0.00044083595275878906,
+      "entanglement": 0.0,
+      "interference": 0.010390116158942142
+    },
+    "inner": {
+      "num_shots": 8192,
+      "coherence": 0.003500926494598433,
+      "entanglement": 0.0005066130761886001,
+      "interference": 0.2380683913717192
+    },
+    "middle": {
+      "num_shots": 8192,
+      "coherence": 0.002217376232147128,
+      "entanglement": 0.0007570147898476876,
+      "interference": 0.2084188949220639
+    },
+    "outer": {
+      "num_shots": 8192,
+      "coherence": 0.019142520427703813,
+      "entanglement": 0.000629060211859267,
+      "interference": 0.36528504627082947
+    }
+  },
+  "job_id": "d30bf42iggks73ctpc80",
+  "timestamp": "2025-09-09T23:26:08.910056"
+}
